@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body leftmargin="350%" bgcolor="#6CA6CD" text="black">
+    <form action="www.grammarly.com" method="post/get">
+        <h1 margin="centre">Admission form</h1>
+        <p>
+            Enter your name:<input type="text" name="Name" placeholder="Enter your name"><br>
+            Enter your father's name:<input type="text" name="fName" placeholder="Enter your father's name"><br>
+            Contact:<input type="text" name="contact" placeholder="Enter your contact-no"><br>
+        </p>
+        <p> Enter your qualification: <br>
+            <input type="radio" name="qualification">Matric
+            <input type="radio" name="qualification">Intermediate
+            <input type="radio" name="qualification">Post-Graduate
+            <input type="radio" name="qualification">Under-Graduate <br>
+            Others: <br>
+            <!-- Scroll list -->
+           <select name="others" id="others" size="2">
+               <option value="O-levels">O-levels</option>
+               <option value="A-levels">A-levels</option>
+               <option value="Higher-secondary">Higher-secondary</option>
+               <option value="Primary">Primary</option>
+           </select> 
+           <br>
+           <br>
+           Email:<input type="text" name="Email" value="@email.com"> <br>
+           Password: <input type="password" name="password" maxlength="5">
+        </p>
+        <p>
+            Enter your concerned courses:
+            <input type="checkbox" value="Physics" name="P">Physics
+            <input type="checkbox" value="Chemistry" name="C">Chemistry
+            <input type="checkbox" value="Maths" name="M">Maths
+            <input type="checkbox" value="English" name="En">English
+            <input type="checkbox" value="Ethics" name="Et">Ethics
+            <br>
+            <br>
+            Upload your recent picture
+            <input type="file" value="Browse" name="file">
+            <br>
+            <br>
+            What do you know about this platform?
+            <input type="textarea" rows="50" cols="50" placeholder="Enter your text">
+            <br>
+            <input type="submit" name="button" value="Submit">
+            <input type="reset" name="button" value="Reset">
+        </p>
+        
+
+
+    </form>
+</body>
+
+</html>
